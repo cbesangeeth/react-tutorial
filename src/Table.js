@@ -43,13 +43,15 @@ class Table extends Component{
         //console.log(characterData);
 
         return(
-            <table>
-                <TableHeader/>
-                <TableBody characterData={characterData}
-                    removeCharacter={removeCharacter}
-                />
-            </table>
-
+            <>
+                <h1>React Tutorial</h1>
+                <table>
+                    <TableHeader/>
+                    <TableBody characterData={characterData}
+                        removeCharacter={removeCharacter}
+                    />
+                </table>
+            </>
         )
     }
 }
